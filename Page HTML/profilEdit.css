@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Tahoma, sans-serif;
+    background-color: white;
+  }
+  
+  
+  #page {
+    width: 80%;
+    margin:  10%; /* Centrer le contenu horizontalement */
+    background-color: wheat;
+    padding: 20px; /* Ajout de padding pour l'espace intérieur */
+    border-radius: 13px;
+  }
+  
+  /* Styles pour modifier la photo de profil */
+  #editPhoto {
+    font-size: 30px;
+    margin-top: 20px; /* Réduction de l'espace entre les éléments */
+    margin-bottom: 20px;
+  }
+  
+  #photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #6f8695;
+    margin-bottom: 20px;
+  }
+  
+  #openPhoto {
+    font-size: 18px;
+    width: 200px;
+    padding: 3px;
+    margin-bottom: 50px;
+  }
+  
+  
+  
+  /* Styles pour modifier la biographie */
+  #editBiography {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: blueviolet;
+  }
+  
+  #writeBiography {
+    max-width: 100%; /* Utilisation de la largeur maximale disponible */
+    height: 75px;
+    resize: none;
+  }
+  
+  #saveBiography {
+    font-size: 18px;
+    width: 200px;
+    padding: 3px;
+    margin-bottom: 50px;
+  }
+  

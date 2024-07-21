@@ -1,0 +1,64 @@
+/* Style de la page */
+body {
+    background-color: wheat;
+    /* Ajouter d'autres styles si nécessaire */
+}
+
+#page {
+    margin: 20px; /* Ajouter un espacement uniforme autour du conteneur */
+    width: 80%;
+    height: auto; /* Hauteur automatique pour s'adapter au contenu */
+    padding: 20px;
+    background-color: white;
+    font-family: Arial, sans-serif;
+    border-radius: 20px; /* Ajuster le rayon du bord selon vos préférences */
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+/* Style de la liste d'amis */
+#liste_amis {
+    margin-top: 20px;
+    border-radius: 10px; /* Réduire le bord arrondi pour un aspect plus équilibré */
+    color: #333; /* Changer la couleur de la police pour une meilleure lisibilité */
+}
+
+#liste_amis h1 {
+    font-size: 24px;
+    color: black; /* Changer la couleur du titre */
+}
+
+#liste_amis table {
+    width: 100%;
+    border-collapse: collapse;
+    color: #333;
+}
+
+#liste_amis th, #liste_amis td {
+    padding: 12px; /* Augmenter légèrement la valeur du padding pour un meilleur espacement */
+    border: 1px solid transparent; /* Utiliser une bordure transparente par défaut */
+    border-radius: 8px; 
+}
+
+#liste_amis th {
+    background-color: #96D0EE;
+    font-weight: bold;
+    text-align: left;
+}
+
+#liste_amis td form {
+    margin: 0;
+}
+
+#liste_amis td button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#liste_amis td button:hover {
+    background-color: #0056b3;
+}

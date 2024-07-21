@@ -1,0 +1,56 @@
+/* CSS pour la mise en page du chat */
+.messages_box {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.messages_box ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* CSS pour les messages envoyés par vous */
+.messages_box ul .sent {
+    align-self: flex-start; /* aligner le message à gauche */
+    background-color: #d3e0dc; /* couleur de fond pour les messages que vous envoyez */
+    padding: 8px;
+    border-radius: 10px;
+    max-width: 70%; /* largeur maximale du message */
+    margin-bottom: 10px; /* espace entre chaque message */
+    margin-left: 50%;
+
+}
+
+/* CSS pour les messages envoyés par vos amis */
+.messages_box ul .received {
+    align-self: flex-end; /* aligner le message à droite */
+    background-color: #cce5ff; /* couleur de fond pour les messages envoyés par vos amis */
+    padding: 8px;
+    border-radius: 10px;
+    max-width: 50%; /* largeur maximale du message */
+    margin-bottom: 10px; /* espace entre chaque message */
+}
+
+/* CSS pour le formulaire d'envoi de message */
+.send_message {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+}
+.send_message textarea {
+    resize: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 5px;
+    font-size: 14px;
+}
+.send_message input[type="button"] {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    cursor: pointer;
+}

@@ -1,0 +1,265 @@
+* {
+  margin: 1%;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f0f8ff; /* Bleu ciel */
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+
+nav {
+  background-color:#eee6d0; ; /* Couleur de fond */
+  padding: 10px 10px; /* Espacement autour des éléments */
+  display: flex; /* Utilisation de flexbox */
+  align-items: center; /* Alignement vertical au centre */
+  justify-content: space-between; /* Répartition égale de l'espace entre les éléments */
+  border-radius: 50px;
+}
+
+.nav_accueil {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex; /* Utilisation de flexbox pour aligner les éléments */
+}
+
+.nav_accueil li {
+  margin-right: 20px; /* Espacement entre les éléments */
+}
+
+.nav_icon img {
+  width: 30px; /* Largeur des icônes */
+  height: auto; /* Hauteur automatique pour conserver les proportions */
+}
+
+.logout-button {
+  background-color: #fff; /* Couleur de fond */
+  color: #87ceeb; /* Couleur du texte */
+  border: none; /* Suppression de la bordure */
+  padding: 8px 16px; /* Espacement intérieur */
+  border-radius: 5px; /* Coins arrondis */
+  cursor: pointer; /* Curseur de la souris */
+  font-size: 16px; /* Taille de la police */
+  text-decoration: none; /* Suppression du soulignement */
+}
+/* Style de la barre de recherche */
+input[type="search"] {
+  padding: 8px 100px; /* Espacement intérieur */
+  border: 1px solid #ccc; /* Bordure */
+  border-radius: 20px; /* Coins arrondis */
+  font-size: 16px; /* Taille de la police */
+  text-align: left;
+  background-color: #f0f2f5; /* Couleur de fond */
+}
+
+/* Style du bouton de recherche */
+input[type="submit"] {
+  padding: 8px 20px; /* Espacement intérieur */
+  border: none; /* Suppression de la bordure */
+  border-radius: 20px; /* Coins arrondis */
+  font-size: 16px; /* Taille de la police */
+  background-color: #1877f2; /* Couleur de fond */
+  color: #fff; /* Couleur du texte */
+  cursor: pointer; /* Curseur de la souris */
+}
+
+/* Style du bouton de déconnexion */
+.logout-button {
+  padding: 8px 20px; /* Espacement intérieur */
+  border: none; /* Suppression de la bordure */
+  border-radius: 20px; /* Coins arrondis */
+  font-size: 16px; /* Taille de la police */
+  background-color: #fff; /* Couleur de fond */
+  color: #1877f2; /* Couleur du texte */
+  cursor: pointer; /* Curseur de la souris */
+  margin-left: 10px; /* Marge à gauche pour l'espacement */
+}
+
+
+
+#banner {
+  border: 2px solid #ccc; /* Bordure de 2 pixels solide avec une couleur grise */
+  padding: 20px; /* Ajout de rembourrage à l'intérieur du cadre */
+  text-align: center; /* Alignement central du contenu */
+  width: 80%; /* Largeur du cadre */
+  margin: 0 auto; /* Centrage horizontal du cadre */
+  background-color: beige;
+}
+
+
+/* Style du contenu de la bannière */
+.banner_content {
+  display: flex; /* Affichage en flexbox pour aligner les éléments horizontalement */
+  align-items: center; /* Alignement vertical au centre */
+}
+.flex {
+  display: flex;
+  justify-content: center; /* Centrer horizontalement */
+  align-items: center; /* Centrer verticalement */
+}
+
+#personalInformations {
+  width: 80%; /* Largeur du contenu */
+  padding: 10px; /* Espacement intérieur */
+  border: 2px solid #ccc; /* Bordure */
+  border-radius: 10px; /* Coins arrondis */
+}
+
+#personalInformations h3 {
+  display: inline; /* Afficher en ligne avec le bouton */
+  font-size: 18px;
+  font-weight: bold;
+  color: blue;
+}
+
+
+#personalInformations a {
+  display: block;
+  margin-bottom: 10px;
+  text-decoration: none;
+  color: #000;
+}
+.flex img {
+  margin-right: 10px; /* Ajouter un espace entre l'icône et le texte du lien */
+  width: 20px; /* Définir une largeur fixe pour l'icône */
+  height: auto; /* Laisser la hauteur automatique pour conserver les proportions */
+}
+
+
+#personalInformations table {
+  width: 70%;
+  border-collapse: collapse;
+}
+
+#personalInformations th, #personalInformations td {
+  padding: 8px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+#personalInformations th {
+  background-color: #f2f2f2;
+}
+
+#personalInformations button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: red;
+  font-weight: bold;
+}
+
+#personalInformations button:hover {
+  color: darkred;
+}
+
+#personalInformations a:hover {
+  text-decoration: underline;
+}
+
+#publication_container {
+  background-color: #f0f0f0; /* Couleur de fond */
+  padding: 20px; /* Espacement intérieur */
+  border-radius: 10px; /* Coins arrondis */
+  margin-bottom: 20px; /* Marge en bas */
+}
+
+#publication h2 {
+  font-size: 20px; /* Taille de la police */
+  font-weight: bold; /* Gras */
+  margin-bottom: 10px; /* Marge en bas */
+  color:blue;
+}
+
+#publication input[type="text"] {
+  width: calc(100% - 22px); /* Largeur ajustée */
+  padding: 8px 10px; /* Espacement intérieur */
+  margin-bottom: 10px; /* Marge en bas */
+  border-radius: 5px; /* Coins arrondis */
+  border: 1px solid #ccc; /* Bordure */
+  box-sizing: border-box; /* Calcul de la taille incluant la bordure */
+}
+
+#publication .button1 {
+  background-color: #87ceeb; /* Couleur de fond */
+  color: white; /* Couleur du texte */
+  margin-right: 10px; /* Marge à droite */
+}
+
+#publication .button2 {
+  background-color: #f0f0f0; /* Couleur de fond */
+  color: #333; /* Couleur du texte */
+  border: 1px solid #ccc; /* Bordure */
+}
+
+#banner {
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: auto; /* Marge en bas pour séparer la bannière du contenu suivant */
+}
+
+.banner_content {
+  display: flex; /* Affichage en flexbox pour aligner les éléments horizontalement */
+  align-items: center; /* Alignement vertical au centre */
+}
+
+.flex {
+  display: flex;
+  justify-content: center; /* Centrer horizontalement */
+  align-items: center; /* Centrer verticalement */
+}
+
+
+
+
+.content_all {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.publication {
+  width: 80%;
+  max-width: 600px; /* Largeur maximale de la publication */
+  border: 1px solid wheat;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 5px; /* Réduire l'espace entre les publications */
+  display: flex; /* Ajout d'une flexbox pour centrer le contenu */
+  flex-direction: column; /* Disposition des éléments en colonne */
+  align-items: center; /* Centrage horizontal */
+  margin: auto; /* Centrage horizontal automatique */
+}
+
+
+#post1 {
+  max-width: 100%;
+  height: auto;
+}
+
+.post-content {
+  margin-top: 10px;
+  font-size: 2dvb;
+}
+
+.user-name {
+  font-weight: bold;
+  font-size: 5dvb;
+   
+}
+.title {
+font-style: italic;
+font-size: medium;
+}
+
+
+
+
+
+

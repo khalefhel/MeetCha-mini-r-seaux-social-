@@ -1,0 +1,67 @@
+nav {
+    background-color: wheat; /* Couleur de fond */
+    padding: 10px 10px; /* Espacement autour des éléments */
+    display: flex; /* Utilisation de flexbox */
+    align-items: center; /* Alignement vertical au centre */
+    justify-content: space-between; /* Répartition égale de l'espace entre les éléments */
+    border-radius: 50px;
+  }
+  
+  .nav_accueil {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Utilisation de flexbox pour aligner les éléments */
+  }
+  
+  .nav_accueil li {
+    margin-right: 20px; /* Espacement entre les éléments */
+  }
+  
+  .nav_icon img {
+    width: 30px; /* Largeur des icônes */
+    height: auto; /* Hauteur automatique pour conserver les proportions */
+  }
+  
+  .logout-button {
+    background-color: #fff; /* Couleur de fond */
+    color: #87ceeb; /* Couleur du texte */
+    border: none; /* Suppression de la bordure */
+    padding: 8px 16px; /* Espacement intérieur */
+    border-radius: 5px; /* Coins arrondis */
+    cursor: pointer; /* Curseur de la souris */
+    font-size: 16px; /* Taille de la police */
+    text-decoration: none; /* Suppression du soulignement */
+  }
+  /* Style de la barre de recherche */
+  input[type="search"] {
+    padding: 8px 100px; /* Espacement intérieur */
+    border: 1px solid #ccc; /* Bordure */
+    border-radius: 20px; /* Coins arrondis */
+    font-size: 16px; /* Taille de la police */
+    background-color: #f0f2f5; /* Couleur de fond */
+  }
+  
+  /* Style du bouton de recherche */
+  input[type="submit"] {
+    padding: 8px 20px; /* Espacement intérieur */
+    border: none; /* Suppression de la bordure */
+    border-radius: 20px; /* Coins arrondis */
+    font-size: 16px; /* Taille de la police */
+    background-color: #1877f2; /* Couleur de fond */
+    color: #fff; /* Couleur du texte */
+    cursor: pointer; /* Curseur de la souris */
+  }
+  
+  /* Style du bouton de déconnexion */
+  .logout-button {
+    padding: 8px 20px; /* Espacement intérieur */
+    border: none; /* Suppression de la bordure */
+    border-radius: 20px; /* Coins arrondis */
+    font-size: 16px; /* Taille de la police */
+    background-color: #fff; /* Couleur de fond */
+    color: #1877f2; /* Couleur du texte */
+    cursor: pointer; /* Curseur de la souris */
+    margin-left: 10px; /* Marge à gauche pour l'espacement */
+  }
+  

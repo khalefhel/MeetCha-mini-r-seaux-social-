@@ -1,0 +1,85 @@
+/* Style de la page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+h2 {
+    font-size: 20px;
+    color: #555;
+    margin-top: 10px;
+}
+
+/* Style de la boîte des messages */
+.messages_box {
+    margin-top: 20px;
+}
+
+.messages_box ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Style des messages envoyés */
+.messages_box ul .sent {
+    background-color: beige; /* Couleur de fond pour les messages envoyés */
+    color: #000; /* Couleur du texte pour les messages envoyés */
+    padding: 10px; /* Rembourrage autour du texte */
+    border-radius: 10px; /* Bord arrondi */
+    max-width: 70%; /* Largeur maximale du message */
+    margin-bottom: 10px; /* Espacement entre les messages */
+    align-self: flex-start; /* Alignement à gauche pour les messages envoyés */
+}
+
+/* Style des messages reçus */
+.messages_box ul .received {
+    background-color: rgb(195, 195, 227); /* Couleur de fond pour les messages reçus */
+    color: #000; /* Couleur du texte pour les messages reçus */
+    padding: 10px; /* Rembourrage autour du texte */
+    border-radius: 10px; /* Bord arrondi */
+    max-width: 70%; /* Largeur maximale du message */
+    margin-bottom: 10px; /* Espacement entre les messages */
+    align-self: flex-end; /* Alignement à droite pour les messages reçus */
+}
+
+
+
+/* Style du formulaire d'envoi de message */
+.send_message textarea {
+    width: calc(100% - 16px);
+    resize: none;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.send_message input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+.send_message input[type="submit"]:hover {
+    background-color: #0056b3;
+}
